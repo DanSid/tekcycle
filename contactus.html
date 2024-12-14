@@ -104,31 +104,31 @@
               
           <li class="nav-item border-dashed active">
             <a href="index.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#fruits"></use></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#household"></use></svg>
               <span>Home</span>
             </a>
           </li>
           <li class="nav-item border-dashed active">
             <a href="awards.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#fruits"></use></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#household"></use></svg>
               <span>Awards and Impact</span>
             </a>
           </li>
           <li class="nav-item border-dashed active">
             <a href="aboutus.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#fruits"></use></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#household"></use></svg>
               <span>About Us</span>
             </a>
           </li>
           <li class="nav-item border-dashed active">
             <a href="team.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#fruits"></use></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#household"></use></svg>
               <span>Team</span>
             </a>
           </li>
           <li class="nav-item border-dashed active">
             <a href="contactus.html" class="nav-link d-flex align-items-center gap-3 text-dark p-2">
-              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#fruits"></use></svg>
+              <svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#household"></use></svg>
               <span>Contact Us</span>
             </a>
           </li>
@@ -201,6 +201,39 @@
         </div>
       </div>
     </header>
+    <section id="contact" class="contact section">
+      <div class="container" >
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form id="contact-form" class="php-email-form" name="contact" method="POST" data-netlify="true" netlify>
+              <div class="row">
+                  <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+              </div>
+              <div class="form-group mt-3">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" id="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+              <!-- Netlify Forms spam prevention -->
+              <div class="hidden" style="display: none;">
+                  <input type="hidden" name="form-name" value="contact">
+              </div>
+              <div class="text-center">
+                  <button type="submit">Send Message</button>
+              </div>
+          </form>
+          
+    </div>
+    </div>
+    </div>
+</section>
+
     <section class="py-5 overflow-hidden">
       <div class="container-lg">
         <div class="row">
@@ -231,27 +264,48 @@
                     <a href="https://www.instagram.com/tekcycle_gh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="btn btn-outline-light">
                       <svg width="16" height="16"><use xlink:href="#instagram"></use></svg>
                     </a>
-                  </li>
-                  <li >
-                    <p>info@tekcycle.com</p>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                      <path d="M3.654 1.328a.678.678 0 0 1 .717-.127c.17.07.296.2.35.368l.988 3.197c.054.172.037.356-.05.516L4.288 7.212a11.745 11.745 0 0 0 4.495 4.495l1.93-1.37c.16-.087.344-.104.516-.05l3.197.988c.17.054.3.18.368.35a.678.678 0 0 1-.127.717l-2.18 2.18c-.143.143-.334.22-.53.22a12.87 12.87 0 0 1-5.513-1.276A12.918 12.918 0 0 1 1.67 3.854a.678.678 0 0 1 .22-.531l2.18-2.18z"/>
-                    </svg>
-                    <span class="ms-2">+233550742221</span>
+                 
+
                   </li>
                 </ul>
+                <span>info@tekcycle.com</span> &nbsp;
+                <span>+233550742221</span>
               </div>
             </div>
           </div>
 
-        
+          <div class="col-md-3 col-sm-6">
+            <div class="footer-menu">
+              <h5 class="widget-title">Tekcycle</h5>
+              <ul class="menu-list list-unstyled">
+                <li class="menu-item">
+                  <a href="#" class="nav-link">About us</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="nav-link">Awards</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+               <div class="col-md-3 col-sm-6">
+            <div class="footer-menu">
+              <h5 class="widget-title">Customer Service</h5>
+              <ul class="menu-list list-unstyled">
+                
+                <li class="menu-item">
+                  <a href="#" class="nav-link">Contact Us</a>
+                </li>
+                
+               
+             </ul>
+            </div>
+          </div>
+          
           <div class="col-lg-3 col-md-6 col-sm-6">
             <div class="footer-menu">
               <h5 class="widget-title">Subscribe Us</h5>
               <p>Subscribe to our newsletter to get updates about our grand offers.</p>
-              <form class="d-flex mt-3 gap-0" action="index.html">
+              <form class="d-flex mt-3 gap-0" action="contactus.html" netlify>
                 <input class="form-control rounded-start rounded-0 bg-light" type="email" placeholder="Email Address" aria-label="Email Address">
                 <button class="btn btn-dark rounded-end rounded-0" type="submit">Subscribe</button>
               </form>
@@ -301,5 +355,35 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="js/plugins.js"></script>
     <script src="js/script.js"></script>
+    
+    <script>
+      document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        let formData = new FormData(this);
+        
+        fetch('forms/contact.php', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.text())
+        .then(data => {
+          if(data === 'OK') {
+            document.querySelector('.sent-message').style.display = 'block';
+            document.querySelector('.error-message').style.display = 'none';
+            document.getElementById('contact-form').reset();
+          } else {
+            document.querySelector('.error-message').textContent = data;
+            document.querySelector('.error-message').style.display = 'block';
+            document.querySelector('.sent-message').style.display = 'none';
+          }
+        })
+        .catch(error => {
+          document.querySelector('.error-message').textContent = "An error occurred. Please try again.";
+          document.querySelector('.error-message').style.display = 'block';
+        });
+      });
+      </script>
+      
   </body>
 </html>
