@@ -1,5 +1,6 @@
 <?php
-  $receiving_email_address = 'info@tekcycle.com';
+  // $receiving_email_address = 'info@tekcycle.com';
+  $receiving_email_address = 'dansidsaya@gmail.com';
 
   if( file_exists($php_email_form = '../images/vendor/php-email-form/php-email-form.php' )) {
     include( $php_email_form );
