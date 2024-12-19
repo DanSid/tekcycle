@@ -566,6 +566,12 @@ input[type=number]::-webkit-outer-spin-button {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .index-image {
+    max-width: 100% !important;
+  }
+}
+
 
 .php-email-form button[type="submit"] {
   background: #ebd300 !important;
